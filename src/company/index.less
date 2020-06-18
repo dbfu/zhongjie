@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+:global {
+  .my-radio .am-radio {
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+    box-sizing: content-box;
+  }
+  .sex.am-list-item .am-list-line .am-list-content {
+    flex: 0 0 90px;
+  }
+
+  .sex.am-list-item .am-list-line .am-list-extra {
+    text-align: left;
+  }
+
+  .at-fab {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: .59733rem;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 50%;
+    background: #6190e8;
+    box-shadow: 0 0.128rem 0.21333rem -0.04267rem rgba(0,0,0,.2), 0 0.256rem 0.42667rem 0 rgba(0,0,0,.14), 0 0.04267rem 0.768rem 0 rgba(0,0,0,.12);
+    box-sizing: border-box;
+    touch-action: none;
+  }
+  
+  .at-fab:active {
+    background: #346fc2;
+    box-shadow: 0 0.29867rem 0.34133rem -0.17067rem rgba(0,0,0,.2), 0 0.512rem 0.72533rem 0.08533rem rgba(0,0,0,.14), 0 0.21333rem 0.93867rem 0.17067rem rgba(0,0,0,.12);
+  }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
